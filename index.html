@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hygiene Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h1>Food Hygiene Management</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Top Rated</a></li>
+                <li><a href="#">New Reviews</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Search Section -->
+        <section class="search-bar">
+            <h2>Find a Restaurant or Cafe</h2>
+            <input type="text" id="search" placeholder="Search for restaurants or cafes">
+        </section>
+
+        <!-- Top Rated Restaurants Section -->
+        <section class="top-rated">
+            <h2>Top Rated Establishments</h2>
+            <div class="restaurant-list">
+                <!-- Each restaurant entry -->
+                <div class="restaurant">
+                    <h3>Restaurant Name</h3>
+                    <p>Average Hygiene Score: 4.5/5</p>
+                    <p>Reviews: 25</p>
+                    <button onclick="viewDetails()">View Details</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Food Hygiene Management. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
